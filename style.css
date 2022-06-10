@@ -7,6 +7,9 @@ body {
   background-color: rgba(126, 126, 126, 0.192);
 }
 header {
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 20px;
   min-height: 50px;
 }
 .wrapper {
@@ -56,6 +59,7 @@ audio {
 .track_items .item {
   min-width: 105px;
   min-height: 105px;
+  cursor: pointer;
 }
 .artist_items .item {
   min-width: 80px;
@@ -63,6 +67,7 @@ audio {
   border-radius: 100%;
   border: 5px solid gray;
   position: relative;
+  cursor: pointer;
 }
 
 .track_items .item div,
